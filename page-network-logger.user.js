@@ -10,12 +10,12 @@
 // @match        https://*/*
 // @run-at       document-start
 // @grant        none
-//
+// ==/UserScript==
+
 // Default: runs on all HTTP/HTTPS pages.
 // To limit it to specific sites, replace the two @match lines above, for example:
 // @match        https://example.com/*
 // @match        https://*.example.com/*
-// ==/UserScript==
 
 (function () {
   'use strict';
